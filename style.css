@@ -1,0 +1,94 @@
+body
+{
+    background-color: rgb(253, 250, 230);
+    z-index: 1
+}
+
+.titulo2{
+    color: rgb(9, 1, 12);
+    font-size: 3em;
+    font-family: "Comic sans ms", cursive;
+}
+
+.titulo3{
+    color: rgb(85, 50, 102);
+    font-size: 2.5em
+}
+
+.titulo4{
+    color: #4C0B6C;
+    font-size: 2em;
+}
+
+.btn-info{
+    background-color: aquamarine;
+}
+
+.flecha{
+    width: 60px;
+    height: 60px;
+}
+
+.carousel{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.titulo-carrusel{
+    color: black
+}
+
+h5{
+    color: black;
+    font-weight: bold;
+    font-size: 30px
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.col{
+    width: 350px !important;
+}
+
+.foto{
+    width: 350px;
+}
+
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.tit{
+    overflow: hidden;
+    text-align: center;
+  }
+  
+.tit:before,
+.tit:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+.tit:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+.tit:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
