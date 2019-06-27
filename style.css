@@ -92,3 +92,9 @@ h2 {
     left: 0.5em;
     margin-right: -50%;
   }
+
+  #descripcion{
+      color: rgb(133, 122, 122);
+      text-align: center;
+      margin: 0 auto
+  }
